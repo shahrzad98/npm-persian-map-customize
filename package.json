@@ -1,5 +1,5 @@
 {
-  "name": "@digify/neshan",
+
   "description": "⚛️ React component for 🍃 Neshan Leaflet map.",
   "version": "0.0.1",
   "private": false,
@@ -13,9 +13,6 @@
     "start": "rollup -cw",
     "build": "NODE_ENV=production rollup -c",
     "publish:npm": "npm run build"
-  },
-  "publishConfig": {
-    "@digify:registry": " https://gitlab.digify.ir/api/v4/projects/132/packages/npm/"
   },
   "browserslist": {
     "production": [
